@@ -1,0 +1,169 @@
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<script src="https://kit.fontawesome.com/be9f66cb55.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" type="text/css" href="css.css">
+<style type="text/css">
+body{
+        margin: 0;
+        padding: 0;
+        background-image: url(https://images.unsplash.com/photo-1468436139062-f60a71c5c892?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: black;
+    }
+header{
+    width: 100%;
+    height: 70px;
+    background-color:transparent;
+    color: white;
+
+}
+.header-list{
+    width: 70%;
+    height: 70px;
+    float: right;
+    background-color: transparent;
+    text-align: center;
+}
+
+.header-list ul{
+    list-style: none;
+}
+
+.header-list ul li{
+    display: inline-block;
+}
+.header-list ul li a{
+    line-height: 80px;
+    margin-left: 55px;
+    color: snow;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.4s; 
+}
+.header-list ul li a:hover{
+    color: orange;
+}
+.active{
+    background-color: orange;
+    padding-left:  20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    color: white;
+}
+.active:hover{
+    background-color: snow;
+    color: black;
+}
+.header-list ul li a ->.active:hover{
+    color: black;
+}
+.header-logo{
+    float: left;
+    width: 30%;
+    height: 70px;
+    background-color: transparent;
+    text-align: center;
+    font-family: arial;
+    padding-top: 17px;
+    letter-spacing: 10px;
+    cursor: pointer;
+}
+
+
+
+section{
+    position: absolute;
+    top: 54%;
+    left: 37%;
+    transform: translate(-50%,-50%);
+    width: 650px;
+    height: 500px;
+    background-color: transparent;
+    padding-top: 30px;
+}
+
+.tittle{
+    font-size: 55px;
+    font-family: arial;
+    text-transform: uppercase;
+    color: white;
+    text-align: justify-all;
+    letter-spacing: 4px;
+}
+
+.text{
+    margin-top: 40px;
+    color: white;
+    width: 600px;
+    text-align: justify-all;
+    font-family: arial;
+    font-size: 16px;
+    line-height: 25px;
+}
+.btn{
+    width: 220px;
+    height: 50px;
+    border-radius: 22px;
+    background-color: orange;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 18px;
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.btn:hover{
+    background-color: snow;
+    color: black;
+}
+</style>
+</head>
+<body> 
+
+
+<header>
+    <div class="header-list">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Home</a></li>
+            <li><a href="">Home</a></li>
+            <li><a href="">Home</a></li>
+            <li><a href="" class="active">Home</a></li>
+        </ul>
+    </div>
+
+
+    <div class="header-logo">
+        <h2>Logo</h2>
+    </div>
+</header>
+
+
+
+
+<section>
+    <div class="tittle">PARTNERTS FOR GROWTS</div>
+    <div class="text"><p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here,</p></div>
+    <div class="btn">Content here</div>
+</section>
+
+
+
+
+</body>
+</html>
+
