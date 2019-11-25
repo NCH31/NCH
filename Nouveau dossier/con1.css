@@ -1,0 +1,35 @@
+.con{
+	width: 100%;
+	height: 750px;
+	background-color: snow;
+}
+.con ion-icon{
+	font-size: 70px;
+	text-align: center;
+	padding-top: 110px;
+	padding-left: 510px;
+	color: #d63031;
+}
+.con p{
+	width: 400px;
+	margin-top: 20px;
+	padding-left: 350px;
+	text-align: justify;
+	font-size: 22px;
+	line-height: 150%;
+	color: #d63031;
+}
+.con button{
+	margin-top: 20px;
+	margin-left: 450px;	
+	border: none;
+	border-radius: 44px;
+	width: 180px;
+	height: 40px;
+	background-color: #d63031;
+	color: snow;
+	text-align: center;
+	font-size: 15px;
+	cursor: pointer;
+	transition: 0.4s;	
+}
