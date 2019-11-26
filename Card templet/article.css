@@ -1,0 +1,48 @@
+article{
+	width: 100%;
+	height: 450px;
+	background-color: transparent;
+}
+
+article h3{
+	text-align: center;
+	color: #e84393;
+	font-size: 20px;
+	font-family: sans-serif;
+	padding-top: 100px;
+	text-transform: uppercase;
+}
+article p{
+	text-align: center;
+	color: snow;
+	width: 400px;
+	padding-left: 370px;
+	line-height: 150%;
+}
+article a{
+	text-align: center;
+	color: snow;
+	display: block;
+	transition: 0.4s;
+}
+article a:hover{
+	color: #e84393;
+}
+article ul{
+	list-style: none;
+	text-align: center;
+	margin-left: -50px;
+}
+article ul li{
+	display: inline-block;
+}
+article ion-icon{
+	font-size: 40px;
+	color: #55efc4;
+	margin-right: 10px;
+	cursor: pointer;
+	transition: 0.4s;
+}
+article ion-icon:hover{
+	color: #e84393;
+}
