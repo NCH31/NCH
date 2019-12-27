@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Art_usto</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+
+<link rel="stylesheet" type="text/css" href="Effect.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" type="text/css" href="home.css">
+
+
+<script
+        src="https://code.jquery.com/jquery-2.2.4.js"
+        integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+        crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script type="text/javascript">
+  $(window).on('scroll',function()){
+    if($(window).scrollTop()){
+      if($(window).scrollTop()){
+        $('nav').addClass('black');
+        else{
+          $('nav').removeClass('black');
+        }
+      }
+    }
+  }
+</script>
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+
+
+<style type="text/css">
+  body{
+    margin: 0;
+    padding: 0;
+  }
+
+</style>
+</head>
+<body>
+<header>
+  <nav class="navbar w3-mobile">
+    <img src="file:///C:/Users/Nadir/Desktop/Architctur_USTO/USTO/img/iconfinder_Untitled-2-04_3253481.png" class="img-nav">
+    <h3 class="logo-nav w3-display-topmiddle ">TheArchiCenter</h3>
+    <div class="w3-sidebar w3-bar-block w3-card w3-animate-left w3-mobile" style="display:none" id="leftMenu">
+      <button onclick="closeLeftMenu()" class="w3-bar-item w3-button w3-large w3-mobile">Close &times;</button>
+      <a href="#" class="w3-bar-item w3-xlarge w3-button">Home</a>
+      <a href="#" class="w3-bar-item w3-xlarge w3-button">Libery</a>
+      <a href="#" class="w3-bar-item w3-xlarge w3-button">Cours</a>
+      <a href="#" class="w3-bar-item w3-xlarge w3-button">Exampel</a>
+      <a href="#" class="w3-bar-item w3-xlarge w3-button">Blog</a>
+      <a href="#" class="w3-bar-item w3-xlarge w3-button">About</a>
+    </div>
+      <button class="w3-button w3-transparent w3-xxlarge  w3-topleft" onclick="openLeftMenu()">&#9776;</button> 
+  </nav>
+
+  <div class="header-cont w3-mobile">
+    <h1 class="">Architecture</h1>
+    <p>Architecture is both the process and the product of planning, designing, and constructing buildings or any other structures.</p>
+    <button class="w3-wide">Log in</button>
+  </div>
+</header>
+<section class="sec1 w3-mobile">
+
+    <div class="box1 w3-mobile"><h1>More content</h1></div>
+    <div class="box2 w3-mobile">
+      <div class="card1">
+        <h2>Courses</h2>
+        <button>Learn more</button>
+      </div>
+
+      <div class="card2">
+        <h2>Example thiorique</h2>
+        <button>Learn more</button>
+      </div>
+
+      <div class="card3">
+        <h2>Libery</h2>
+        <button>Learn more</button>
+      </div>
+    </div>
+
+    
+    <div class="box3 w3-mobile">
+      <div class="box3-one"><h2>About us</h2></div>
+      <div class="box3-tow"><h2>Blog & Events</h2></div>
+    </div>
+  
+
+</section>  
+
+<footer class="footer w3-mobile">
+  <div>
+   <ul>
+     <li>E   <a href="#">helloworld@mail.com</a></li>
+     <li>T   <a href="#">+213 666666666</a></li>
+     <li>A   <a href="#">USTO , Bir eldjir , Oran , Algeria</a></li>
+   </ul>
+   <p class="w3-display-bottomright">Create by <a href="">NCH</a></p>
+  </div>
+</footer>
+
+
+
+
+
+<script>
+    $(document).ready(function(){
+      $(window).scroll(function() { // check if scroll event happened
+        if ($(document).scrollTop() > 95) { 
+          $(".navbar").css("background-color", "#f8f8f8");
+        } 
+        else 
+        {
+          $(".navbar").css("background-color", "transparent"); // if not, change it back to transparent
+        }
+        if ($(document).scrollTop() > 95) { 
+          $(".navbar").css("border-bottom","3px solid black");
+        } 
+        else 
+        {
+          $(".navbar").css("border", "none");        
+        }
+      });
+    });
+</script>
+
+
+<script>
+function openLeftMenu() {
+  document.getElementById("leftMenu").style.display = "block";
+}
+
+function closeLeftMenu() {
+  document.getElementById("leftMenu").style.display = "none";
+}
+</script>
+</body>
+</html>
