@@ -39,7 +39,9 @@
 	.img-nav:hover{
 		opacity: 1;
 	}
-
+	.img-nav img{
+		width: 100px;
+	}
 	/* Sid bar !!! */
 
 	.w3-sidebar{
