@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Product Landing Page</title>
+<link rel="stylesheet" type="text/css" href="PLP.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet"> 
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+<style type="text/css">
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	body{
+		font-family: 'PT Sans', sans-serif;
+	}
+</style>	
+</head>
+<body>
+<nav>
+	<ul>
+		<li class="list-1">Pricing</li>
+		<li class="list-1">How it Works</li>
+		<li class="list-1">Features</li>
+	</ul>
+	<div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
+	  <button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
+	  <a href="#" class="w3-bar-item w3-button">Link 1</a>
+	  <a href="#" class="w3-bar-item w3-button">Link 2</a>
+	  <a href="#" class="w3-bar-item w3-button">Link 3</a>
+	</div>
+	<button class="w3-button w3-transparent w3-xlarge" onclick="w3_open()">☰</button>
+	<p>Original T-shirts</p>
+</nav>
+
+
+
+
+
+
+<main>
+	<div class="box-1">
+		<form>
+			<label>Handcrafted, home-made masterpieces</label>
+			<br>
+			<input type="email" name="email" placeholder="Entre your Email address">
+			<br>
+			<button>Get started</button>
+		</form>
+	</div>
+
+	<div class="box-2"></div>
+
+	<div class="box-3">
+		<div class="icon">
+			<ul>
+				<li><ion-icon name="checkmark-circle-outline"></ion-icon></li>
+				<li><ion-icon name="flash"></ion-icon></li>
+				<li><ion-icon name="battery-charging"></ion-icon></li>
+			</ul>
+		</div>
+		<div class="paragraph">
+			<ul>
+				<li>
+					<h4>Premium Materials</h4>
+					<p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase. </p>
+				</li>
+				<li>
+					<h4>Fast Shipping</h4>
+					<p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied. </p>
+				</li>
+				<li>
+					<h4>Quality Assurance</h4>
+					<p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument. </p>
+				</li>
+			</ul>
+		</div>
+	</div>	
+
+	<div class="box-4">
+		<iframe width="0" height="0" src="https://www.youtube-nocookie.com/embed/zLkNgkzx-wI?start=7" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<iframe width="600" height="350" src="https://www.youtube-nocookie.com/embed/zLkNgkzx-wI?start=7" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+
+	<div class="box-5">
+		<div class="card">
+			<h5>Tenor Trombone</h5>
+			<h4>600$</h4>
+			<p>Lorem ipsum.</p>
+			<p>Lorem ipsum.</p>
+			<p>Lorem ipsum dolor.</p>
+			<p>Lorem ipsum.</p>
+			<br>
+			<button>Slecet</button>
+		</div>
+		<div class="card">
+			<h5>Bass Trombone</h5>
+			<h4>900$</h4>
+			<p>Lorem ipsum.</p>
+			<p>Lorem ipsum.</p>
+			<p>Lorem ipsum dolor.</p>
+			<p>Lorem ipsum.</p>
+			<br>
+			<button>Slecet</button>			
+		</div>
+		<div class="card">
+			<h5>Valve Trombone</h5>
+			<h4>1200$</h4>
+			<p>T-shirts for men</p>
+			<p>Lorem ipsum.</p>
+			<p>Lorem ipsum dolor.</p>
+			<p>Lorem ipsum.</p>
+			<br>
+			<button>Slecet</button>				
+		</div>
+	</div>
+
+	<div class="box-6">
+		<div class="float">
+			<ul>
+				<li>Privacy</li>
+				<li>Terms</li>
+				<li>Contact</li>
+			</ul>
+			<p>Copyright 2020, Original T-shirts</p>
+		</div>
+	</div>
+
+</main>
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+</body>
+</html>
